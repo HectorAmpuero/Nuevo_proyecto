@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: Roboto;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.navbar{
+    background-color: #28A745;
+} 
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.collapse{
+    margin-right: 40px;
+}
+
+/*MENU CARD*/
+p {
+    color: #acadaf;
+}
+
+.card-title{
+    font-weight: 400;
+}
+
+
+/*FORMULARIO*/
+.formulario {
+    background-color: #28A745;
+    padding: 20px;
+}
+
+form > h4 {
+    color: white;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+footer > p{
+    margin: 0;
+}
